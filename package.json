@@ -1,0 +1,24 @@
+{
+  "name": "reactjs-practice",
+  "version": "1.0.0",
+  "description": "React practice",
+  "scripts": {
+    "test": "jest",
+    "dev": "npx parcel index.html",
+    "prod:build": "npx parcel build index.html"
+  },
+  "author": "Vinay",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0"
+  }
+}

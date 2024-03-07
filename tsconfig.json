@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs", 
+    "strict": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": [
+    "src/**/*.ts"
+, "src/index.tsx"  ],
+  "exclude": [
+    "node_modues"
+  ]
+}
